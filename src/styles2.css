@@ -180,6 +180,7 @@ border: none;
     border-radius: 10px;
     cursor: pointer;
     margin-right: 1px;
+      background-color: #fff;
     color: #fff;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;   
