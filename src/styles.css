@@ -1,0 +1,71 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+    box-sizing: border-box;
+  }
+  
+  .App {
+    padding: 30px;
+    display: flex;
+  }
+  
+  form {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-right: 40px;
+    height: 100%;
+  }
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    display: block;
+    padding: 8px 10px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid silver;
+  }
+  
+  .input-container input[type="checkbox"] {
+    display: inline;
+    width: auto;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  form button {
+    background: greenyellow;
+  }
+  
+  .products-list {
+    width: 50%;
+  }
+  
+  .products-list ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .products-list ul li {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .products-list ul li h4 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+  }
+  

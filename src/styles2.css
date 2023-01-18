@@ -1,0 +1,215 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+    box-sizing: border-box;
+    
+  }
+  
+  .App {
+    width: 700px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    width: 400px;
+    padding: 24px;
+    background: rgb(0,83,255);
+    background: linear-gradient(46deg, rgba(0,206,218,1) 0%, rgba(0,83,255,1) 100%);
+    border: 1px solid silver;
+    border-radius: 10px;
+    height: 100%; 
+    -webkit-box-shadow: 10px 10px 17px -6px rgba(0,0,0,0.31);
+-moz-box-shadow: 10px 10px 17px -6px rgba(0,0,0,0.31);
+box-shadow: 10px 10px 17px -6px rgba(0,0,0,0.31);
+border: none;
+
+  }
+  .input-container {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+  }
+
+  .form_container{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-container input {
+    padding: 8px 10px;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    border: 1px solid silver;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+  
+  .input-container input[type="checkbox"] {
+    display: inline;
+    width: auto;
+  }
+  
+  
+
+  h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  form button {
+    background: #7ebefd;
+    border: none;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+  form button:hover {
+    background: rgb(0, 42, 131);
+    color: #fff;
+  }
+
+  .card_container{  
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  }
+
+  .title_cards{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  
+  .products-list {
+    width: 50%;
+  }
+
+    
+    
+
+  .user-list ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .products-list ul li {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .products-list ul li h4 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+  }
+
+  .line_list{
+    height: 2px;
+    background-color: rgb(104, 104, 104);
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 2px;
+  }
+
+  .card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+  
+  .card p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 5px; 
+    margin-top: 10px;  
+  }
+
+  .card .email_list{
+    text-align: center; 
+    margin-bottom: 15px; 
+
+  }
+
+  .card .birthday_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card .birthday_list i{
+    margin-right: 5px;
+  }
+
+
+  .button-list{
+    padding: 5px;
+    border: none;      
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 1px;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;   
+    
+}
+
+ .icon1{
+  font-size: 21px;  
+  color: rgb(0, 110, 81);  
+}
+
+ .icon2{
+  font-size: 21px;  
+  color: rgb(110, 33, 0);  
+}
+
+
+
+
+@media (max-width: 550px) {
+  .App {
+    width: 300px;
+    
+    
+  }
+
+  .card_container{  
+    width: 300px;    
+    grid-template-columns: 1fr;   
+  
+    }
+}
+
+  
